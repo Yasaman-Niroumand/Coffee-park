@@ -1,0 +1,2522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<core:CityModel xmlns:xAL="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:gml="http://www.opengis.net/gml" xmlns:wtr="http://www.opengis.net/citygml/waterbody/2.0" xmlns:app="http://www.opengis.net/citygml/appearance/2.0" xmlns:tex="http://www.opengis.net/citygml/texturedsurface/2.0" xmlns:core="http://www.opengis.net/citygml/2.0" xmlns:veg="http://www.opengis.net/citygml/vegetation/2.0" xmlns:dem="http://www.opengis.net/citygml/relief/2.0" xmlns:tran="http://www.opengis.net/citygml/transportation/2.0" xmlns:bldg="http://www.opengis.net/citygml/building/2.0" xmlns:grp="http://www.opengis.net/citygml/cityobjectgroup/2.0" xmlns:tun="http://www.opengis.net/citygml/tunnel/2.0" xmlns:frn="http://www.opengis.net/citygml/cityfurniture/2.0" xmlns:brid="http://www.opengis.net/citygml/bridge/2.0" xmlns:gen="http://www.opengis.net/citygml/generics/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:luse="http://www.opengis.net/citygml/landuse/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/citygml/waterbody/2.0 http://schemas.opengis.net/citygml/waterbody/2.0/waterBody.xsd http://www.opengis.net/citygml/appearance/2.0 http://schemas.opengis.net/citygml/appearance/2.0/appearance.xsd http://www.opengis.net/citygml/texturedsurface/2.0 http://schemas.opengis.net/citygml/texturedsurface/2.0/texturedSurface.xsd http://www.opengis.net/citygml/vegetation/2.0 http://schemas.opengis.net/citygml/vegetation/2.0/vegetation.xsd http://www.opengis.net/citygml/relief/2.0 http://schemas.opengis.net/citygml/relief/2.0/relief.xsd http://www.opengis.net/citygml/transportation/2.0 http://schemas.opengis.net/citygml/transportation/2.0/transportation.xsd http://www.opengis.net/citygml/building/2.0 http://schemas.opengis.net/citygml/building/2.0/building.xsd http://www.opengis.net/citygml/cityobjectgroup/2.0 http://schemas.opengis.net/citygml/cityobjectgroup/2.0/cityObjectGroup.xsd http://www.opengis.net/citygml/tunnel/2.0 http://schemas.opengis.net/citygml/tunnel/2.0/tunnel.xsd http://www.opengis.net/citygml/cityfurniture/2.0 http://schemas.opengis.net/citygml/cityfurniture/2.0/cityFurniture.xsd http://www.opengis.net/citygml/bridge/2.0 http://schemas.opengis.net/citygml/bridge/2.0/bridge.xsd http://www.opengis.net/citygml/generics/2.0 http://schemas.opengis.net/citygml/generics/2.0/generics.xsd http://www.opengis.net/citygml/landuse/2.0 http://schemas.opengis.net/citygml/landuse/2.0/landUse.xsd">
+   <gml:boundedBy>
+    <gml:Envelope srsDimension="3">
+      <gml:lowerCorner>606288.76 5034372.09 0.00</gml:lowerCorner>
+      <gml:upperCorner>606398.29 5034518.08 3.97</gml:upperCorner>
+    </gml:Envelope>
+  </gml:boundedBy>
+  <core:cityObjectMember>
+    <bldg:Building gml:id="Building01">
+      <bldg:roofType>1000</bldg:roofType>
+        <bldg:function>1000</bldg:function>
+      <bldg:measuredHeight>8.6</bldg:measuredHeight>
+      <bldg:BoundarySurface>
+        <bldg:GroundSurface gml:id="GroundSurface_01_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606369.09 5034491.91 0.00 606363.53 5034482.82 0.00 606349.48 5034490.36 0.00 606354.56 5034499.56 0.0 606369.09 5034491.91 0.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:BoundarySurface>
+         <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_01_01">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606369.09 5034491.91 0.00 606369.09 5034491.91 8.6 606354.56 5034499.56 8.6 606354.56 5034499.56 8.6 606369.09 5034491.91 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+  <bldg:boundedBy>
+     <bldg:WallSurface gml:id="WallSurface_01_02">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606369.09 5034491.91 0.00 606369.09 5034491.91 8.6 606363.53 5034482.82 8.6 606363.53 5034482.82 0.00 606369.09 5034491.91 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+         <bldg:WallSurface gml:id="WallSurface_01_03">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606363.53 5034482.82 0.00 606363.53 5034482.82 8.6 606349.48 5034490.36 8.6 606349.48 5034490.36 0.00 606363.53 5034482.82 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior>  
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+       <bldg:WallSurface gml:id="WallSurface_01_04">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606349.48 5034490.36 0.00 606349.48 5034490.36 8.6 606354.56 5034499.56 8.6 606354.56 5034499.56 0.00 606349.48 5034490.36 0.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior>  
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+           </bldg:lod2MultiSurface>
+         </bldg:WallSurface>
+       </bldg:boundedBy>
+       <bldg:boundedBy>
+        <bldg:RoofSurface gml:id="Roofsurface_01_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606369.09 5034491.91 8.6 606363.53 5034482.82 8.6 606349.48 5034490.36 8.6 606354.56 5034499.56 8.6 606369.09 5034491.91 8.6 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+      <bldg:address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7323</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+      </bldg:address>
+     </bldg:Building>
+   </core:cityObjectMember>
+
+    <core:cityObjectMember>
+    <bldg:Building gml:id="Building_02">
+    	 <bldg:function>1000</bldg:function>
+        <bldg:roofType>1000</bldg:roofType>
+      <bldg:measuredHeight >8.6</bldg:measuredHeight>
+      <bldg:boundedBy>
+        <bldg:GroundSurface gml:id="GroundSurface_02_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606359.07 5034478.41 0.00 606349.72 5034485.36 0.00 606343.68 5034477.37 0.00 606352.95 5034470.53 0.00 606359.07 5034478.41 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:boundedBy>
+        <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_02_1">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606359.07 5034478.41 0.00 606359.07 5034478.41 8.60  606349.72 5034485.36 8.60 606349.72 5034485.36 0.00 606359.07 5034478.41 0.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_02_02">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606349.72 5034485.36 0.00 606349.72 5034485.36 8.60 606343.68 5034477.37 8.60 606343.68 5034477.37 0.00 606349.72 5034485.36 0.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_02_03">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3"> 606343.68 5034477.37 0.00 606343.68 5034477.37 8.60 606352.95 5034470.53 8.60 606352.95 5034470.53 0.00  606343.68 5034477.37 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_02_04">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606359.07 5034478.41 0.00 606359.07 5034478.41 8.60 606359.07 5034478.41 8.60 606359.07 5034478.41 0.00 606359.07 5034478.41 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:RoofSurface gml:id="Roofsurface_02_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606359.07 5034478.41 8.60 606349.72 5034485.36 8.60 606343.68 5034477.37 8.60 606352.95 5034470.53 8.60 606359.07 5034478.41 8.60</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+       <bldg:address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7331</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+      </bldg:address>
+     </bldg:Building>
+</core:cityObjectMember>
+
+
+   <core:cityObjectMember>
+    <bldg:Building gml:id="Building_03">
+    	 <bldg:function>1000</bldg:function>
+        <bldg:roofType>1000</bldg:roofType>
+      <bldg:measuredHeight >8.6</bldg:measuredHeight>
+      <bldg:boundedBy>
+        <bldg:GroundSurface gml:id="GroundSurface_03_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606337.8 5034468.83 0.00 606347.37 5034462.54 0.00 606352.95 5034470.53 0.00  606343.68 5034477.37 0.00 606337.8 5034468.83 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:boundedBy>
+        <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_03_01">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606337.8 5034468.83 0.00 606337.8 5034468.83 8.60 606347.37 5034462.54 8.60 606347.37 5034462.54 0.00 606337.8 5034468.83 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_03_02">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606347.37 5034462.54 0.00 606347.37 5034462.54 8.60 606352.95 5034470.53 8.60 606352.95 5034470.53 0.00 606347.37 5034462.54 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_03_03">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606343.68 5034477.37 0.00 606343.68 5034477.37 8.60 606352.95 5034470.53 8.60 606352.95 5034470.53 0.00 606343.68 5034477.37 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_03_04">
+        <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606337.8 5034468.83 0.00 606337.8 5034468.83 8.60 606337.8 5034468.83 0.00 606337.8 5034468.83 8.60 606337.8 5034468.83 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:RoofSurface gml:id="Roofsurface_03_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606337.8 5034468.83 8.60 606347.37 5034462.54 8.60 606352.95 5034470.53 8.60  606343.68 5034477.37 8.60 606337.8 5034468.83 8.60</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+       <bldg:address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7337</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+      </bldg:address>
+     </bldg:Building>
+</core:cityObjectMember>
+
+
+ <core:cityObjectMember>
+    <bldg:Building gml:id="Building_04">
+    <bldg:function>1160</bldg:function>
+     <bldg:roofType>1000</bldg:roofType>
+      <bldg:measuredHeight >8.60</bldg:measuredHeight>
+      <bldg:boundedBy>
+        <bldg:GroundSurface gml:id="GroundSurface_04_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606345.07 5034459.95 0.00 606331.44 5034442.94 0.00 606320.13 5034450.30 0.00 606333.67 5034468.20 0.00 606345.07 5034459.95 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_04_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606345.07 5034459.95 0.00 606345.07 5034459.95 8.60 606331.44 5034442.94 8.60 606331.44 5034442.94 0.00 606345.07 5034459.95 0.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="WallSurface_04_02">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606331.44 5034442.94 0.00 606331.44 5034442.94 8.60 606320.13 5034450.3 8.60 606320.13 5034450.3 0.00 606331.44 5034442.94 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+       <bldg:WallSurface gml:id="WallSurface_04_03">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606320.13 5034450.3 0.00 606320.13 5034450.3 8.60 606333.67 5034468.2 8.60 606333.67 5034468.2 0.00 606320.13 5034450.3 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+       <bldg:WallSurface gml:id="WallSurface_04_04">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606333.67 5034468.2 0.00 606333.67 5034468.2 8.60 606345.07 5034459.95 8.60 606345.07 5034459.95 0.00 606333.67 5034468.2 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+       <bldg:boundedBy>
+        <bldg:RoofSurface gml:id="Roofsurface_04">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606345.07 5034459.95 8.60 606331.44 5034442.94 8.60 606320.13 5034450.30 8.60 606333.67 5034468.20 8.60 606345.07 5034459.95 8.60 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+    </bldg:Building>
+    <bldg:address>
+        <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7339</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+      </bldg:address>
+  </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <bldg:Building gml:id="Building_05">
+      c
+       <bldg:function>1050</bldg:function>
+        <bldg:roofType>1000</bldg:roofType>
+      <bldg:measuredHeight >5.00</bldg:measuredHeight>
+      <bldg:boundedBy>
+        <bldg:GroundSurface gml:id="GroundSurface_05-01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606374.93 5034350.33 0.00 606364.33 5034343.26 0.00 606374.43 5034328.98 0.00 606385.32 5034336.94 0.00 606374.93 5034350.33 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="WallSurface_05_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606374.93 5034350.33 0.00 606374.93 5034350.33 5.00 606364.33 5034343.26 5.00 606364.33 5034343.26 0.00 606374.93 5034350.33 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="WallSurface_05_02">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606364.33 5034343.26 0.00 606364.33 5034343.26 5.00 606374.43 5034328.98 5.00 606374.43 5034328.98 0.00 606364.33 5034343.26 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="WallSurface_05_03">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606374.43 5034328.98 0.00 606374.43 5034328.98 5.00 606385.32 5034336.94 5.00 606385.32 5034336.94 0.00 606374.43 5034328.98 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="WallSurface_05_04">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606385.32 5034336.94 0.00 606385.32 5034336.94 5.00 606374.93 5034350.33 5.00 606374.93 5034350.33 0.00 606385.32 5034336.94 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:RoofSurface gml:id="Roofsurface_05_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606374.93 5034350.33 5.00 606364.33 5034343.26 5.00 606374.43 5034328.98 5.00 606385.32 5034336.94 5.00 606374.93 5034350.33 5.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+      <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7423</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName> Avenue Harley</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+      </bldg:Building>
+      </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <bldg:Building gml:id="Building_06">
+        <bldg:function>1000</bldg:function>
+         <bldg:roofType>1000</bldg:roofType>
+       <bldg:measuredHeight >40.00</bldg:measuredHeight>
+      <bldg:boundedBy>
+        <bldg:GroundSurface gml:id="GroundSurface_06_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606317.11 5034420.91 0.00 606301.87 5034429.21 0.00 606294.88 5034416.98 0.00 606281.54 5034424.42 0.00 606292.10 5034442.83 0.00  606299.44 5034438.84 0.00 606304.99 5034448.38 0.00 606279.72 5034462.62 0.00 606245.31 5034402.14 0.00 606260.16 5034393.84 0.00 606270.03 5034411.12 0.00 606269.95 5034411.11 0.00 606285.35 5034402.48 0.00 606276.16 5034386.33 0.00 606292.27 5034377.38 0.00 606317.11 5034420.91 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="wallSurface_06_1">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606317.11 5034420.91 0.00 606317.11 5034420.91 40.00 606301.87 5034429.21 40.00  606301.87 5034429.21 00.00 606317.11 5034420.91 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+       <bldg:boundedBy>
+        <bldg:WallSurface gml:id="wallSurface_06_02">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606301.87 5034429.21 0.00 606301.87 5034429.21 40.00 606294.88 5034416.98 40.00 606294.88 5034416.98 0.00 606301.87 5034429.21 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="wallSurface_06_03">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606294.88 5034416.98 0.00 606294.88 5034416.98 40.00 606281.54 5034424.42 40.00 606281.54 5034424.42 40.00 606294.88 5034416.98 0.00 606294.88 5034416.98 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+       <bldg:boundedBy>
+        <bldg:WallSurface gml:id="wallSurface_06_04">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606281.54 5034424.42 0.00 606281.54 5034424.42 40.00  606292.10 5034442.83 40.00 606292.10 5034442.83 0.00 606281.54 5034424.42 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="wallSurface_06_05">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3"> 606292.10 5034442.83 0.00 606292.10 5034442.83 40.00  606299.44 5034438.84 40.00 606299.44 5034438.84 0.00 606292.10 5034442.83 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="wallSurface_06_06">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606299.44 5034438.84 0.00 606299.44 5034438.84 40.00 606304.99 5034448.38 40.00 606304.99 5034448.38 0.00 606299.44 5034438.84 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+       <bldg:boundedBy>
+        <bldg:WallSurface gml:id="wallSurface_06_07">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3"> 606304.99 5034448.38 0.00 606304.99 5034448.38 40.00 606279.72 5034462.62 40.00 606279.72 5034462.62 0.00 606304.99 5034448.38 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="wallSurface_06_08">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606279.72 5034462.62 0.00 606279.72 5034462.62 40.00 606245.31 5034402.14 40.00 606245.31 5034402.14 0.00 606279.72 5034462.62 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+       <bldg:boundedBy>
+        <bldg:WallSurface gml:id="wallSurface_06_09">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606245.31 5034402.14 0.00 606245.31 5034402.14 40.00 606260.16 5034393.84 40.00 606260.16 5034393.84 0.00  606245.31 5034402.14 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="wallSurface_06_10">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606260.16 5034393.84 0.00 606260.16 5034393.84 40.00 606270.03 5034411.12 40.00 606270.03 5034411.12 0.00 606260.16 5034393.84 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="wallSurface_06_11">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606270.03 5034411.12 0.00 606270.03 5034411.12 40.00 606269.95 5034411.11 40.00 606269.95 5034411.11 0.00 606270.03 5034411.12 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="wallSurface_06_12">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606269.95 5034411.11 0.00 606269.95 5034411.11 40.00 606285.35 5034402.48 40.00 606285.35 5034402.48 0.00 606269.95 5034411.11 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+      </bldg:WallSurface>
+    </bldg:boundedBy>
+    <bldg:boundedBy>
+      <bldg:WallSurface gml:id="wallSurface_06_13">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606285.35 5034402.48 0.00 606285.35 5034402.48 40.00 606276.16 5034386.33 40.00 606276.16 5034386.33 0.00 606285.35 5034402.48 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+      </bldg:WallSurface>
+    </bldg:boundedBy>
+    <bldg:boundedBy>
+      <bldg:WallSurface gml:id="wallSurface_06_14">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606276.16 5034386.33 0.00 606276.16 5034386.33 40.00 606292.27 5034377.38 40.00 606292.27 5034377.38 0.00  606276.16 5034386.33 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+      </bldg:WallSurface>
+    </bldg:boundedBy>
+    <bldg:boundedBy>
+      <bldg:WallSurface gml:id="wallSurface_06_15">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606292.27 5034377.38 0.00  606292.27 5034377.38 40.00 606317.11 5034420.91 40.00 606317.11 5034420.91 00.00  606292.27 5034377.38 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+      </bldg:WallSurface>
+    </bldg:boundedBy>
+     <bldg:boundedBy>
+        <bldg:RoofSurface gml:id="RoofSurface_06_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606317.11 5034420.91 40.00 606301.87 5034429.21 40.00 606294.88 5034416.98 40.00 606281.54 5034424.42 40.00 606292.10 5034442.83 40.00  606299.44 5034438.84 40.00 606304.99 5034448.38 40.00 606279.72 5034462.62 40.00 606245.31 5034402.14 40.00 606260.16 5034393.84 40.00 606270.03 5034411.12 40.00 606269.95 5034411.11 40.00 606285.35 5034402.48 40.00 606276.16 5034386.33 40.00 606292.27 5034377.38 40.00 606317.11 5034420.91 40.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+      <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7400</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+    </bldg:Building>
+    </core:cityObjectMember>
+
+    <core:cityObjectMember>
+    <bldg:Building gml:id="chalet">
+        <bldg:function>1000</bldg:function>
+         <bldg:roofType>1000</bldg:roofType>
+       <bldg:measuredHeight >4.00</bldg:measuredHeight>
+      <bldg:boundedBy>
+        <bldg:GroundSurface gml:id="GroundSurface_chalet">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606406.50 5034429.98 0.00 606402.73 5034435.70 0.00 606393.07 5034428.98 0.00 606396.99 5034423.60 0.00 606406.50 5034429.98 0.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="Wallsurface_chalet_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606406.50 5034429.98 0.00 606406.50 5034429.98 4.00 606402.73 5034435.70 4.00 606402.73 5034435.70 0.00 606406.50 5034429.98 0.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="Wallsurface_chalet_02">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606402.73 5034435.70 0.00 606402.73 5034435.70 4.00 606393.07 5034428.98 4.00 606393.07 5034428.98 0.00 606402.73 5034435.70 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="Wallsurface_chalet_03">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606393.07 5034428.98 0.00 606393.07 5034428.98 4.00 606396.99 5034423.60 4.00 606396.99 5034423.60 0.00 606393.07 5034428.98 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="Wallsurface_chalet_04">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3"> 606396.99 5034423.60 0.00 606396.99 5034423.60 4.00  606406.50 5034429.98 4.00 606406.50 5034429.98 0.00 606396.99 5034423.60 0.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:RoofSurface gml:id="Roof_chalet_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606406.50 5034429.98 4.00 606402.73 5034435.70 4.00 606393.07 5034428.98 4.00 606396.99 5034423.60 4.00 606406.50 5034429.98 4.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+       <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7339</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+    </bldg:Building>
+  </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <bldg:Building gml:id="Building_07">
+      <gml:name>Maison Janchi</gml:name>
+       <bldg:roofType>1000</bldg:roofType>
+      <bldg:function>1050</bldg:function>
+       <bldg:measuredHeight >4.00</bldg:measuredHeight>
+      <bldg:boundedBy>
+        <bldg:GroundSurface gml:id="GroundSurface_07_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606374.93 5034350.33 0.00 606385.32 5034336.94 0.00 606420 5034362.87 0.00 606408.58 5034376.9 0.00 606374.93 5034350.33 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="Wallsurface_07_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606374.93 5034350.33 0.00 606374.93 5034350.33 4.00 606385.32 5034336.94 4.00 606385.32 5034336.94 0.00 606374.93 5034350.33 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_07_02">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606385.32 5034336.94 0.00 606385.32 5034336.94 4.00 606420 5034362.87 4.00 606420 5034362.87 0.00 606385.32 5034336.94 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+      </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_07_03">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606420 5034362.87 0.00 606420 5034362.87 4.00 606408.58 5034376.9 4.00 606408.58 5034376.9 0.00 606420 5034362.87 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_07_04">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606408.58 5034376.9 0.00 606408.58 5034376.9 4.00  606374.93 5034350.33 4.00 606374.93 5034350.33 0.00 606408.58 5034376.9 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:RoofSurface gml:id="Roofsurface_07_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3"> 606374.93 5034350.33 4.00 606385.32 5034336.94 4.00 606420 5034362.87 4.00 606408.58 5034376.9 4.00 606374.93 5034350.33 4.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+       <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7415</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName> Avenue Harley</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+    </bldg:Building>
+  </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <bldg:Building gml:id="Building_08">
+      <gml:name>Westhaven Elmhurst Community Recreation Association</gml:name>
+        <bldg:roofType>1000</bldg:roofType>
+       <bldg:function>1050</bldg:function>
+       <bldg:measuredHeight>4.00</bldg:measuredHeight>
+      <bldg:boundedBy>
+        <bldg:GroundSurface gml:id="GroundSurface_08_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606420 5034362.87 0.00 606439.92 5034377.76 0.00 606426.91 5034393.43 0.00 606407.31 5034377.66 0.00 606420 5034362.87 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+        <bldg:WallSurface gml:id="Wallsurface_08_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606420 5034362.87 0.00 606420 5034362.87 4.00 606439.92 5034377.76 4.00 606439.92 5034377.76 0.00 606420 5034362.87 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_08_02">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606439.92 5034377.76 0.00 606439.92 5034377.76 4.00 606426.91 5034393.43 4.00 606426.91 5034393.43 0.00 606439.92 5034377.76 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_08_03">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606420 5034362.87 0.00 606420 5034362.87 4.00  606408.58 5034376.9 4.00 606408.58 5034376.9 0.00 606420 5034362.87 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_08_04">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606407.31 5034377.66 0.00 606407.31 5034377.66 4.00 606420 5034362.87 4.00 606420 5034362.87 0.00 606407.31 5034377.66 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:RoofSurface gml:id="Roofsurface_08_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3"> 606420 5034362.87 4.00 606439.92 5034377.76 4.00 606426.91 5034393.43 4.00 606407.31 5034377.66 4.00 606420 5034362.87 4.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+      <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7405</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName> Avenue Harley</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+    </bldg:Building>
+  </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <bldg:Building gml:id="Building_09">
+      <gml:name>Boulangerie Snowdon</gml:name>
+       <bldg:function>1050</bldg:function>
+        <bldg:roofType>1000</bldg:roofType>
+       <bldg:measuredHeight >4.00</bldg:measuredHeight>
+      <bldg:boundedBy>
+        <bldg:GroundSurface gml:id="GroundSurface_09_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606447.67 5034377.56 0.00 606482.42 5034403.60 0.00 606478.26 5034409.08 0.00 606482.58 5034412.71 0.00 606472.26 5034426.43 0.00 606432.71 5034397.42 0.00 606447.67 5034377.56 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_09_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606447.67 5034377.56 0.00 606447.67 5034377.56 4.00 606482.42 5034403.60 4.00 606482.42 5034403.60 0.00 606447.67 5034377.56 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_09_02">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606482.42 5034403.60 0.00 606482.42 5034403.60 4.00 606478.26 5034409.08 4.00 606478.26 5034409.08 0.00 606482.42 5034403.60 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+       <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_09_03">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606478.26 5034409.08 0.00 606478.26 5034409.08 4.00 606482.58 5034412.71 4.00 606482.58 5034412.71 0.00 606478.26 5034409.08 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_09_04">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606482.58 5034412.71 0.00 606482.58 5034412.71 4.00 606472.26 5034426.43 4.00 606472.26 5034426.43 0.00 606482.58 5034412.71 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_09_05">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606472.26 5034426.43 0.00 606472.26 5034426.43 4.00 606432.71 5034397.42 4.00 606432.71 5034397.42 0.00 606472.26 5034426.43 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_09_06">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606432.71 5034397.42 0.00 606432.71 5034397.42 4.00 606447.67 5034377.56 4.00 606447.67 5034377.56 0.00 606432.71 5034397.42 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:RoofSurface gml:id="Roofsurface_09_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3"> 606447.67 5034377.56 4.00 606482.42 5034403.60 4.00 606478.26 5034409.08 4.00 606482.58 5034412.71 4.00 606472.26 5034426.43 4.00 606432.71 5034397.42 4.00 606447.67 5034377.56 4.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+      <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7385</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName> Avenue Harley</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+    </bldg:Building>
+  </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <bldg:Building gml:id="Building_10">
+       <gml:name>Centre Auto Raffi Service</gml:name>
+       <bldg:function>1160</bldg:function>
+        <bldg:roofType>1050</bldg:roofType>
+       <bldg:measuredHeight >4.00</bldg:measuredHeight>
+      <bldg:boundedBy>
+        <bldg:GroundSurface gml:id="GroundSurface_10">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3"> 606517.02 5034439.19 0.00 606523.08 5034431.85 0.00 606543.00 5034447.30 0.00 606529.81 5034454.85 0.00 606522.78 5034450.07 0.00 606514.79 5034459.60 0.00 606489.63 5034439.61 0.00 606500.42 5034426.13 0.00 606516.94 5034439.08 0.00 606517.02 5034439.19 0.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:GroundSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606517.02 5034439.19 0.00 606517.02 5034439.19 4.00 606523.08 5034431.85 4.00 606523.08 5034431.85 0.00 606517.02 5034439.19 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_02">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606523.08 5034431.85 0.00 606523.08 5034431.85 4.00 606543.00 5034447.30 4.00 606543.00 5034447.30 0.00 606523.08 5034431.85 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_03">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606543.00 5034447.30 0.00 606543.00 5034447.30 4.00 606529.81 5034454.85 4.00 606529.81 5034454.85 0.00 606543.00 5034447.30 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_04">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3"> 606529.81 5034454.85 0.00 606529.81 5034454.85 4.00  606522.78 5034450.07 4.00 606522.78 5034450.07 0.00 606529.81 5034454.85 0.00  </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+       <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_05">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606522.78 5034450.07 0.00 606522.78 5034450.07 4.00 606514.79 5034459.60 4.00 606514.79 5034459.60 0.00 606522.78 5034450.07 0.00   </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+       <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_06">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606514.79 5034459.60 0.00 606514.79 5034459.60 4.00 606489.63 5034439.61 4.00 606489.63 5034439.61 0.00 606514.79 5034459.60 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_07">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606489.63 5034439.61 0.00 606489.63 5034439.61 4.00 606500.42 5034426.13 4.00 606500.42 5034426.13 0.00 606489.63 5034439.61 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_08">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606489.63 5034439.61 0.00 606489.63 5034439.61 4.00 606500.42 5034426.13 4.00 606500.42 5034426.13 0.00 606489.63 5034439.61 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+       <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_09">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606500.42 5034426.13 0.00 606500.42 5034426.13 4.00 606516.94 5034439.08 4.00 606516.94 5034439.08 0.00 606500.42 5034426.13 0.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_10">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606516.94 5034439.08 0.00 606516.94 5034439.08 4.00 606517.02 5034439.19 4.00 606517.02 5034439.19 0.00 606516.94 5034439.08 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:WallSurface gml:id="Wallsurface_10_11">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606517.02 5034439.19 0.00 606517.02 5034439.19 4.00 606516.94 5034439.08 4.00 606516.94 5034439.08 0.00  606517.02 5034439.19 0.00 </gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:WallSurface>
+      </bldg:boundedBy>
+      <bldg:boundedBy>
+      <bldg:RoofSurface gml:id="Roofsurface_10_01">
+          <bldg:lod2MultiSurface>
+            <gml:MultiSurface>
+              <gml:surfaceMember>
+                <gml:Polygon>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606517.02 5034439.19 4.00 606523.08 5034431.85 4.00 606543.00 5034447.30 4.00 606529.81 5034454.85 4.00 606522.78 5034450.07 4.00 606514.79 5034459.60 4.00 606489.63 5034439.61 4.00 606500.42 5034426.13 4.00 606516.94 5034439.08 4.00 606517.02 5034439.19 4.00</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior> 
+                </gml:Polygon>
+              </gml:surfaceMember>
+            </gml:MultiSurface>
+          </bldg:lod2MultiSurface>
+        </bldg:RoofSurface>
+      </bldg:boundedBy>
+      <Address>
+          <xalAddress>
+            <xAL:AddressDetails>
+              <xAL:Country>
+                <xAL:Locality Type="Town">
+                  <xAL:LocalityName>Montreal</xAL:LocalityName>
+                  <xAL:Thoroughfare Type="Street">
+                    <xAL:ThoroughfareNumber>7325</xAL:ThoroughfareNumber>
+                    <xAL:ThoroughfareName> Avenue Harley</xAL:ThoroughfareName>
+                  </xAL:Thoroughfare>
+                  <xAL:PostalCode>
+                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
+                  </xAL:PostalCode>
+                </xAL:Locality>
+              </xAL:Country>
+            </xAL:AddressDetails>
+          </xalAddress>
+        </Address>
+    </bldg:Building>
+  </core:cityObjectMember>
+
+
+  <core:cityObjectMember>
+    <tran:Road gml:id="id_Bikeline">
+      <tran:function>1240</tran:function>
+      <tran:lod2MultiSurface>
+        <gml:MultiSurface srsDimension="3">
+          <gml:surfaceMember>
+            <gml:Polygon>
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList> 606316.42 5034360.00 0.00 606321.30 5034362.42 0.00 606324.20 5034366.80 0.00 606329.92 5034375.68 0.00   606334.14 5034380.42 0.00 606336.21 5034382.90 0.00 606341.19 5034388.87 0.00 606341.95 5034390.44 0.00 606341.87 5034390.44 0.00 606344.95 5034392.94 0.00 606347.50 5034395.20 0.00 606351.43 5034398.38 0.00 606351.74 5034398.61 0.00 606354.98 5034401.11 0.00 606357.61 5034403.04 0.00 606364.57 5034407.49 0.00 606368.36 5034410.33 0.00 606370.98 5034412.27 0.00 606375.16 5034415.23 0.00 606377.63 5034417.16 0.00 606381.64 5034420.34 0.00 606384.03 5034422.27 0.00 606384.03 5034422.27 0.00 606390.51 5034427.49 0.00 606397.44 5034434.27 0.00 606398.71 5034437.63 0.00 606398.93 5034443.08 0.00 606398.57 5034446.07 0.00 606398.11 5034449.84 0.00 606397.83 5034452.84 0.00 606398.60 5034457.85 0.00 606398.73 5034459.41 0.00 606399.56 5034466.20 0.00 606400.25 5034471.22 0.00 606400.38 5034472.77 0.00 606401.02 5034476.45 0.00 606401.60 5034479.57 0.00 606402.69 5034484.59 0.00 606403.05 5034486.27 0.00 606403.69 5034489.83 0.00 606402.93 5034493.38 0.00 606401.39 5034496.57 0.00 606397.11 5034499.83 0.00 606396.50 5034498.94 0.00   606399.78 5034494.43 0.00 606399.70 5034494.54 0.00 606400.59 5034492.67 0.00 606401.19 5034489.90 0.00 606400.63 5034486.11 0.00 606400.33 5034485.00 0.00 606399.17 5034479.98 0.00 606398.67 5034476.86 0.00 606397.96 5034472.84 0.00 606397.90 5034471.62 0.00 606397.13 5034466.50 0.00 606396.87 5034463.27 0.00 606396.23 5034459.37 0.00 606396.17 5034458.26 0.00 606395.48 5034453.13 0.00 606395.61 5034449.69 0.00 606395.91 5034446.03 0.00 606396.35 5034443.15 0.00 606396.35 5034438.26 0.00 606395.46 5034435.57 0.00 606389.15 5034429.47 0.00 606386.68 5034427.54 0.00 606382.67 5034424.36 0.00 606379.97 5034422.20 0.00 606375.95 5034419.13 0.00 606373.63 5034417.42 0.00 606369.47 5034414.02 0.00 606366.84 5034412.20 0.00 606366.84 5034412.20 0.00 606363.05 5034409.36 0.00 606360.66 5034407.65 0.00 606356.25 5034404.91 0.00 606353.54 5034403.19 0.00 606349.84 5034400.13 0.00 606345.83 5034396.84 0.00 606340.05 5034391.41 0.00 606339.36 5034390.51 0.00 606337.44 5034388.47 0.00 606334.15 5034384.42 0.00 606334.15 5034384.31 0.00 606332.23 5034381.94 0.00 606328.41 5034376.88 0.00 606322.15 5034367.99 0.00 606319.63 5034364.17 0.00 606316.49 5034360.12 0.00 606316.42 5034360.00 0.00 </gml:posList>
+                    </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </tran:lod2MultiSurface>
+    </tran:Road>
+  </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <tran:Road gml:id="Street_01">
+       <gml:name>Rue West Broadway</gml:name>
+        <tran:function>1000</tran:function>
+      <tran:lod2MultiSurface>
+        <gml:MultiSurface  srsDimension="3">
+          <gml:surfaceMember>
+            <gml:Polygon >
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>606501.49 5034497.16 0.00 606487.66 5034486.70 0.00 606485.10 5034485.77 0.00 606482.14 5034485.16 0.00 606479.09 5034484.89 0.00 606475.96 5034485.17 0.00 606408.00 5034516.91 0.00 606405.56 5034518.20 0.00  606316.06 5034566.03 0.00 606317.35 5034568.38 0.00 606477.64 5034487.64 0.00 606486.84 5034489.46 0.00 606491.39 5034492.76 0.00 606501.49 5034497.16 0.00 </gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </tran:lod2MultiSurface>
+</tran:Road>
+  </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <tran:Road gml:id="Street_02">
+       <gml:name>Coffee Street</gml:name>
+       <tran:function>1000</tran:function>
+      <tran:lod2MultiSurface>
+        <gml:MultiSurface  srsDimension="3">
+          <gml:surfaceMember>
+            <gml:Polygon >
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>606408 5034516.91 0.00 606363.47 5034454.26 0.00 606296.91 5034362.12 0.00 606294.46 5034363.52 0.00 606321.66 5034401.32 0.00 606405.56 5034518.20 0.00 606408 5034516.91 0.00 </gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </tran:lod2MultiSurface>
+</tran:Road>
+  </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <tran:Road gml:id="Street_03">
+       <gml:name>Avenue Elmhurst</gml:name>
+       <tran:function>1000</tran:function>
+      <tran:lod2MultiSurface>
+        <gml:MultiSurface  srsDimension="3">
+          <gml:surfaceMember>
+            <gml:Polygon >
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>606379.40 5034317.06 0.00 606309.77 5034355.45 0.00 606296.91 5034362.12 0.00 606294.46 5034363.52 0.00 606227.18 5034396.72 0.00 606225.89 5034394.26 0.00 606291.20 5034362.02 0.00 606359.25 5034324.72 0.00 606361.77 5034323.32 0.00 606377.01 5034315.13 0.00 606379.40 5034317.06 0.00 606379.40 5034317.06 0.00</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </tran:lod2MultiSurface>
+</tran:Road>
+  </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <tran:Road>
+       <gml:name>Land Road</gml:name>
+      <tran:function>1000</tran:function>
+      <tran:lod2MultiSurface>
+        <gml:MultiSurface  srsDimension="3">
+          <gml:surfaceMember>
+            <gml:Polygon >
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>606397.44 5034434.27 0.00 606462.95 5034491.28 0.00 606461.85 5034491.49 0.00 606398.65 5034436.63 0.00 606397.44 5034434.27 0.00</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </tran:lod2MultiSurface>
+</tran:Road>
+  </core:cityObjectMember>
+
+  <core:cityObjectMember>
+    <tran:Railway >
+      <gml:name>Railway</gml:name>
+      <tran:function>1855</tran:function>
+      <tran:lod2MultiSurface>
+        <gml:MultiSurface>
+          <gml:surfaceMember>
+            <gml:Polygon >
+              <gml:exterior>
+                <gml:LinearRing >
+                  <gml:posList>606338.61 5034347.38 0.00 606498.82 5034465.22 0.00 606498.50 5034465.55 0.00 606337.98 5034347.59 0.00 606338.61 5034347.38 0.00</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon >
+              <gml:exterior>
+                <gml:LinearRing >
+                  <gml:posList>606336.87 5034348.24 0.00 606497.63 5034466.42 0.00 606497.23 5034466.53 0.00 606336.48 5034348.34 0.00 606336.87 5034348.24 0.00</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon >
+              <gml:exterior>
+                <gml:LinearRing >
+                  <gml:posList>606334.19 5034349.64 0.00 606495.17 5034468.27 0.00 606494.94 5034468.26 0.00 606333.88 5034349.63 0.00 606334.19 5034349.64 0.00</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon >
+              <gml:exterior>
+                <gml:LinearRing >
+                  <gml:posList>606332.69 5034350.28 0.00 606493.83 5034469.25 0.00 606493.51 5034469.35 0.00 606332.30 5034350.38 0.00 606332.69 5034350.28 0.00</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon >
+              <gml:exterior>
+                <gml:LinearRing >
+                  <gml:posList>606326.61 5034353.95 0.00 606491.68 5034471.32 0.00 606491.44 5034471.43 0.00 606326.14 5034353.95 0.00 606326.61 5034353.95 0.00</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+          <gml:surfaceMember>
+            <gml:Polygon >
+              <gml:exterior>
+                <gml:LinearRing >
+                  <gml:posList>606325.11 5034354.71 0.00 606490.64 5034472.41 0.00 606490.25 5034472.52 0.00 606323.17 5034353.67 0.00 606325.11 5034354.71 0.00</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </tran:lod2MultiSurface>
+    </tran:Railway>
+ </core:cityObjectMember>
+
+    <core:cityObjectMember>
+    <dem:ReliefFeature gml:id="Terrain_model">
+      <dem:lod>3</dem:lod>
+      <dem:reliefComponent>
+        <dem:TINRelief>
+          <dem:lod>3</dem:lod>
+          <dem:tin>
+            <gml:TriangulatedSurface>
+              <gml:trianglePatches>
+                 <gml:Triangle>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606395.05 5034436.46 0.00  606475.96 5034485.17 0.00 606408 5034516.91 0.00 606395.05 5034436.46 0.00 </gml:posList>
+                       </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Triangle>
+                <gml:Triangle>
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606395.05 5034436.46 0.00 606475.96 5034485.17 0.00 606396.99 5034423.6 0.00 606395.05 5034436.46 0.00</gml:posList>
+                       </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Triangle>
+                <gml:Triangle>
+                <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606395.05 5034436.46 0.00 606309.77 5034355.45 0.00 606396.99 5034423.6 0.00 606395.05 5034436.46 0.00 </gml:posList>
+                       </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Triangle>
+                <gml:Triangle>
+                <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606395.05 5034436.46 0.00 606408 5034516.91 0.00 606365.37 5034457.4 0.00 606395.05 5034436.46 0.00 </gml:posList>
+                       </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Triangle>
+                <gml:Triangle>
+                <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606395.05 5034436.46 0.00 606365.37 5034457.4 0.00 606335.95 5034416.34 0.00 606395.05 5034436.46 0.00 </gml:posList>
+                       </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Triangle>
+                 <gml:Triangle>
+                <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606395.05 5034436.46 0.00 606335.95 5034416.34 0.00 606362.75 5034413.24 0.00 606395.05 5034436.46 0.00 </gml:posList>
+                       </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Triangle>
+                <gml:Triangle>
+                <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606362.75 5034413.24 0.00 606335.95 5034416.34 0.00 606296.91 5034362.12 0.00 606362.75 5034413.24 0.00</gml:posList>
+                       </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Triangle>
+                <gml:Triangle>
+                <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="3">606362.75 5034413.24 0.00 606309.77 5034355.45 0.00 606296.91 5034362.12 0.00 606362.75 5034413.24 0.00 </gml:posList>
+                       </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Triangle>
+              </gml:trianglePatches>
+            </gml:TriangulatedSurface>
+          </dem:tin>
+        </dem:TINRelief>
+      </dem:reliefComponent>
+    </dem:ReliefFeature>
+  </core:cityObjectMember>
+
+
+  <core:cityObjectMember>
+<veg:SolitaryVegetationObject gml:id="vegetation_01">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606404.73 5034447.18 0.00 </gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject  gml:id="vegetation_02">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606404.86 5034476.30 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject  gml:id="vegetation_03">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606403.86 5034447.83 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject gml:id="vegetation_04">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606411.08 5034492.51 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject gml:id="vegetation_05" >
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606426.69 5034489.67 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject gml:id="vegetation_06" >
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606376.71 5034415.81 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject gml:id="vegetation_07">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606374.36 5034420.77 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject gml:id="vegetation_08" >
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606369.44 5034411.24 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject gml:id="vegetation_09">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606366.07 5034416.07 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject gml:id="vegetation_10">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606380.89 5034431.99 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject  gml:id="vegetation_11">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606388.45 5034442.79 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject  gml:id="vegetation_12">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606370.50 5034450.04 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject  gml:id="vegetation_13">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606389.55 5034465.59 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject  gml:id="vegetation_14">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606395.16 5034481.13 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject  gml:id="vegetation_15">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3"> 606336.44 5034392.35 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject  gml:id="vegetation_16">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3"> 606325.68 5034371.61 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<veg:SolitaryVegetationObject  gml:id="vegetation_17">
+<veg:function>1060</veg:function>
+<veg:species>9999</veg:species>
+<veg:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3"> 606311.31 5034366.14 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</veg:lod1ImplicitRepresentation>
+</veg:SolitaryVegetationObject>
+</core:cityObjectMember>
+
+
+
+<core:cityObjectMember>
+<frn:CityFurniture  >
+<frn:function>1200</frn:function>
+<class>1030</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606413.72 5034447.11 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Road_sign_01">
+<frn:function>1070</frn:function>
+<class>1000</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606414.09 5034508.57 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Road_sign_02">
+<frn:function>1070</frn:function>
+<class>1000</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606418.81 5034506.76 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Stree lamp_02">
+<frn:function>1150</frn:function>
+<class>1030</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606331.31 5034399.48 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Stree lamp_03">
+<frn:function>1150</frn:function>
+<class>1030</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606469.12 5034482.27 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Lamp post_01">
+<frn:function>1170</frn:function>
+<class>1030</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606406.14 5034441.98 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Lamp post_01">
+<frn:function>1170</frn:function>
+<class>1030</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606406.14 5034441.98 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Lamp post_02">
+<frn:function>1170</frn:function>
+<class>1030</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606386.19 5034428.53 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Lamp post_03">
+<frn:function>1170</frn:function>
+<class>1030</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606370.51 5034417.26 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Lamp post_04">
+<frn:function>1170</frn:function>
+<class>1030</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606320.99 5034362.64 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Lamp post_05">
+<frn:function>1170</frn:function>
+<class>1030</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606394.80 5034465.35 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Bench_01">
+<frn:function>1170</frn:function>
+<class>1530</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606373.22 5034404.86 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+<core:cityObjectMember>
+<frn:CityFurniture gml:id="Bench_02">
+<frn:function>1170</frn:function>
+<class>1530</class> 
+<frn:lod1ImplicitRepresentation>
+<core:ImplicitGeometry>
+<core:referencePoint>
+<gml:Point>
+<gml:pos srsDimension="3">606370.59 5034403.15 0.00</gml:pos>
+</gml:Point>
+</core:referencePoint>
+</core:ImplicitGeometry>
+</frn:lod1ImplicitRepresentation>
+<frn:lod2ImplicitRepresentation>
+</frn:lod2ImplicitRepresentation>
+</frn:CityFurniture>
+</core:cityObjectMember>
+
+
+</core:CityModel>
+
