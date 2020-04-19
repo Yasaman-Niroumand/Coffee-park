@@ -1,0 +1,16 @@
+Steps to creat a new database in Pgadmin4:
+connect your server (PostSQL11)
+click on the Database and selet create Database
+in the pop up type the name of Database and select postgres as a owner and save the changes
+At this point you need you need to add the Extention
+Click on the Extention and select create Extention.In the pop up windowe select postgis for name drop down list
+To create Schemas citydb_pkg follow the step below:
+open the text file CONNECTION_DETAIL.SH through directory type cd /Applications/3DCityDB-Importer-Exporter/3dcitydb/postgresql/ShellScripts/Unix/
+opent the terminal 
+type cd /Applications/3DCityDB-Importer-Exporter/3dcitydb/postgresql/ShellScripts/Unix/
+type chmod u+x CREATE_DB.sh
+type ./CREATE_DB.sh
+type the code 25833
+enter
+type urn:ogc:def:crs,crs:EPSG:6.12:25833,crs:EPSG:6.12:5783
+Refresh your Database 
