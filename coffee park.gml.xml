@@ -8,10 +8,7 @@
   </gml:boundedBy>
   <core:cityObjectMember>
     <bldg:Building gml:id="Building01">
-      <bldg:roofType>1000</bldg:roofType>
-        <bldg:function>1000</bldg:function>
-      <bldg:measuredHeight>8.6</bldg:measuredHeight>
-      <bldg:BoundarySurface>
+    	<bldg:boundedBy>
         <bldg:GroundSurface gml:id="GroundSurface_01_01">
           <bldg:lod2MultiSurface>
             <gml:MultiSurface>
@@ -27,7 +24,7 @@
             </gml:MultiSurface>
           </bldg:lod2MultiSurface>
         </bldg:GroundSurface>
-      </bldg:BoundarySurface>
+    </bldg:boundedBy>
          <bldg:boundedBy>
       <bldg:WallSurface gml:id="WallSurface_01_01">
         <bldg:lod2MultiSurface>
@@ -113,26 +110,6 @@
           </bldg:lod2MultiSurface>
         </bldg:RoofSurface>
       </bldg:boundedBy>
-      <bldg:address>
-        <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7323</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
-      </bldg:address>
      </bldg:Building>
    </core:cityObjectMember>
 
@@ -140,7 +117,7 @@
     <bldg:Building gml:id="Building_02">
     	 <bldg:function>1000</bldg:function>
         <bldg:roofType>1000</bldg:roofType>
-      <bldg:measuredHeight >8.6</bldg:measuredHeight>
+     
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="GroundSurface_02_01">
           <bldg:lod2MultiSurface>
@@ -243,26 +220,6 @@
           </bldg:lod2MultiSurface>
         </bldg:RoofSurface>
       </bldg:boundedBy>
-       <bldg:address>
-        <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7331</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
-      </bldg:address>
      </bldg:Building>
 </core:cityObjectMember>
 
@@ -271,7 +228,7 @@
     <bldg:Building gml:id="Building_03">
     	 <bldg:function>1000</bldg:function>
         <bldg:roofType>1000</bldg:roofType>
-      <bldg:measuredHeight >8.6</bldg:measuredHeight>
+  
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="GroundSurface_03_01">
           <bldg:lod2MultiSurface>
@@ -373,36 +330,16 @@
             </gml:MultiSurface>
           </bldg:lod2MultiSurface>
         </bldg:RoofSurface>
-      </bldg:boundedBy>
-       <bldg:address>
-        <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7337</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
-      </bldg:address>
+      </bldg:boundedBy> 
      </bldg:Building>
 </core:cityObjectMember>
 
 
  <core:cityObjectMember>
     <bldg:Building gml:id="Building_04">
-    <bldg:function>1160</bldg:function>
+    <bldg:function>1000</bldg:function>
      <bldg:roofType>1000</bldg:roofType>
-      <bldg:measuredHeight >8.60</bldg:measuredHeight>
+ 
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="GroundSurface_04_01">
           <bldg:lod2MultiSurface>
@@ -506,36 +443,15 @@
         </bldg:RoofSurface>
       </bldg:boundedBy>
     </bldg:Building>
-    <bldg:address>
-        <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7339</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
-      </bldg:address>
   </core:cityObjectMember>
 
-  <core:cityObjectMember>
+<core:cityObjectMember>
     <bldg:Building gml:id="Building_05">
-      c
-       <bldg:function>1050</bldg:function>
-        <bldg:roofType>1000</bldg:roofType>
-      <bldg:measuredHeight >5.00</bldg:measuredHeight>
+    <bldg:function>1000</bldg:function>
+     <bldg:roofType>1000</bldg:roofType>
+ 
       <bldg:boundedBy>
-        <bldg:GroundSurface gml:id="GroundSurface_05-01">
+        <bldg:GroundSurface gml:id="GroundSurface_05_01">
           <bldg:lod2MultiSurface>
             <gml:MultiSurface>
               <gml:surfaceMember>
@@ -552,14 +468,14 @@
         </bldg:GroundSurface>
       </bldg:boundedBy>
       <bldg:boundedBy>
-        <bldg:WallSurface gml:id="WallSurface_05_01">
+      <bldg:WallSurface gml:id="WallSurface_05_01">
           <bldg:lod2MultiSurface>
             <gml:MultiSurface>
               <gml:surfaceMember>
                 <gml:Polygon>
                   <gml:exterior>
                     <gml:LinearRing>
-                      <gml:posList srsDimension="3">606374.93 5034350.33 0.00 606374.93 5034350.33 5.00 606364.33 5034343.26 5.00 606364.33 5034343.26 0.00 606374.93 5034350.33 0.00</gml:posList>
+                      <gml:posList srsDimension="3"> 606374.93 5034350.33 0.00 606374.93 5034350.33 5.00 606364.33 5034343.26 5.00 606364.33 5034343.26 0.00 606374.93 5034350.33 0.00</gml:posList>
                     </gml:LinearRing>
                   </gml:exterior> 
                 </gml:Polygon>
@@ -569,14 +485,14 @@
         </bldg:WallSurface>
       </bldg:boundedBy>
       <bldg:boundedBy>
-        <bldg:WallSurface gml:id="WallSurface_05_02">
+      <bldg:WallSurface gml:id="WallSurface_05_02">
           <bldg:lod2MultiSurface>
             <gml:MultiSurface>
               <gml:surfaceMember>
                 <gml:Polygon>
                   <gml:exterior>
                     <gml:LinearRing>
-                      <gml:posList srsDimension="3">606364.33 5034343.26 0.00 606364.33 5034343.26 5.00 606374.43 5034328.98 5.00 606374.43 5034328.98 0.00 606364.33 5034343.26 0.00</gml:posList>
+                      <gml:posList srsDimension="3">606364.33 5034343.26 0.00 606364.33 5034343.26 5.00 606374.43 5034328.98 5.00 606374.43 5034328.98 0.00 606364.33 5034343.26 0.00 </gml:posList>
                     </gml:LinearRing>
                   </gml:exterior> 
                 </gml:Polygon>
@@ -586,7 +502,7 @@
         </bldg:WallSurface>
       </bldg:boundedBy>
       <bldg:boundedBy>
-        <bldg:WallSurface gml:id="WallSurface_05_03">
+       <bldg:WallSurface gml:id="WallSurface_05_03">
           <bldg:lod2MultiSurface>
             <gml:MultiSurface>
               <gml:surfaceMember>
@@ -603,7 +519,7 @@
         </bldg:WallSurface>
       </bldg:boundedBy>
       <bldg:boundedBy>
-        <bldg:WallSurface gml:id="WallSurface_05_04">
+       <bldg:WallSurface gml:id="WallSurface_05_04">
           <bldg:lod2MultiSurface>
             <gml:MultiSurface>
               <gml:surfaceMember>
@@ -612,22 +528,22 @@
                     <gml:LinearRing>
                       <gml:posList srsDimension="3">606385.32 5034336.94 0.00 606385.32 5034336.94 5.00 606374.93 5034350.33 5.00 606374.93 5034350.33 0.00 606385.32 5034336.94 0.00 </gml:posList>
                     </gml:LinearRing>
-                  </gml:exterior> 
+                  </gml:exterior>
                 </gml:Polygon>
               </gml:surfaceMember>
             </gml:MultiSurface>
           </bldg:lod2MultiSurface>
         </bldg:WallSurface>
       </bldg:boundedBy>
-      <bldg:boundedBy>
-      <bldg:RoofSurface gml:id="Roofsurface_05_01">
+       <bldg:boundedBy>
+        <bldg:RoofSurface gml:id="Roofsurface_05">
           <bldg:lod2MultiSurface>
             <gml:MultiSurface>
               <gml:surfaceMember>
                 <gml:Polygon>
                   <gml:exterior>
                     <gml:LinearRing>
-                      <gml:posList srsDimension="3">606374.93 5034350.33 5.00 606364.33 5034343.26 5.00 606374.43 5034328.98 5.00 606385.32 5034336.94 5.00 606374.93 5034350.33 5.00 </gml:posList>
+                      <gml:posList srsDimension="3">606374.93 5034350.33 5.00 606364.33 5034343.26 5.00 606374.43 5034328.98 5.00 606385.32 5034336.94 5.00 606374.93 5034350.33 5.00  </gml:posList>
                     </gml:LinearRing>
                   </gml:exterior> 
                 </gml:Polygon>
@@ -636,32 +552,16 @@
           </bldg:lod2MultiSurface>
         </bldg:RoofSurface>
       </bldg:boundedBy>
-      <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7423</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName> Avenue Harley</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
-      </bldg:Building>
-      </core:cityObjectMember>
+    </bldg:Building>
+  </core:cityObjectMember>
+
+  
 
   <core:cityObjectMember>
     <bldg:Building gml:id="Building_06">
         <bldg:function>1000</bldg:function>
          <bldg:roofType>1000</bldg:roofType>
-       <bldg:measuredHeight >40.00</bldg:measuredHeight>
+      
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="GroundSurface_06_01">
           <bldg:lod2MultiSurface>
@@ -951,24 +851,6 @@
           </bldg:lod2MultiSurface>
         </bldg:RoofSurface>
       </bldg:boundedBy>
-      <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7400</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
     </bldg:Building>
     </core:cityObjectMember>
 
@@ -976,7 +858,7 @@
     <bldg:Building gml:id="chalet">
         <bldg:function>1000</bldg:function>
          <bldg:roofType>1000</bldg:roofType>
-       <bldg:measuredHeight >4.00</bldg:measuredHeight>
+   
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="GroundSurface_chalet">
           <bldg:lod2MultiSurface>
@@ -1079,33 +961,12 @@
           </bldg:lod2MultiSurface>
         </bldg:RoofSurface>
       </bldg:boundedBy>
-       <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7339</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName>Coffee Street</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
     </bldg:Building>
   </core:cityObjectMember>
 
   <core:cityObjectMember>
     <bldg:Building gml:id="Building_07">
       <gml:name>Maison Janchi</gml:name>
-       <bldg:roofType>1000</bldg:roofType>
-      <bldg:function>1050</bldg:function>
-       <bldg:measuredHeight >4.00</bldg:measuredHeight>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="GroundSurface_07_01">
           <bldg:lod2MultiSurface>
@@ -1208,33 +1069,12 @@
           </bldg:lod2MultiSurface>
         </bldg:RoofSurface>
       </bldg:boundedBy>
-       <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7415</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName> Avenue Harley</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
     </bldg:Building>
   </core:cityObjectMember>
 
   <core:cityObjectMember>
     <bldg:Building gml:id="Building_08">
       <gml:name>Westhaven Elmhurst Community Recreation Association</gml:name>
-        <bldg:roofType>1000</bldg:roofType>
-       <bldg:function>1050</bldg:function>
-       <bldg:measuredHeight>4.00</bldg:measuredHeight>
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="GroundSurface_08_01">
           <bldg:lod2MultiSurface>
@@ -1337,33 +1177,15 @@
           </bldg:lod2MultiSurface>
         </bldg:RoofSurface>
       </bldg:boundedBy>
-      <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7405</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName> Avenue Harley</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
     </bldg:Building>
   </core:cityObjectMember>
 
   <core:cityObjectMember>
     <bldg:Building gml:id="Building_09">
       <gml:name>Boulangerie Snowdon</gml:name>
-       <bldg:function>1050</bldg:function>
+       <bldg:function>1000</bldg:function>
         <bldg:roofType>1000</bldg:roofType>
-       <bldg:measuredHeight >4.00</bldg:measuredHeight>
+ 
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="GroundSurface_09_01">
           <bldg:lod2MultiSurface>
@@ -1500,33 +1322,15 @@
           </bldg:lod2MultiSurface>
         </bldg:RoofSurface>
       </bldg:boundedBy>
-      <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7385</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName> Avenue Harley</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
     </bldg:Building>
   </core:cityObjectMember>
 
   <core:cityObjectMember>
     <bldg:Building gml:id="Building_10">
        <gml:name>Centre Auto Raffi Service</gml:name>
-       <bldg:function>1160</bldg:function>
-        <bldg:roofType>1050</bldg:roofType>
-       <bldg:measuredHeight >4.00</bldg:measuredHeight>
+       <bldg:function>1000</bldg:function>
+        <bldg:roofType>1000</bldg:roofType>
+       
       <bldg:boundedBy>
         <bldg:GroundSurface gml:id="GroundSurface_10">
           <bldg:lod2MultiSurface>
@@ -1748,24 +1552,6 @@
           </bldg:lod2MultiSurface>
         </bldg:RoofSurface>
       </bldg:boundedBy>
-      <Address>
-          <xalAddress>
-            <xAL:AddressDetails>
-              <xAL:Country>
-                <xAL:Locality Type="Town">
-                  <xAL:LocalityName>Montreal</xAL:LocalityName>
-                  <xAL:Thoroughfare Type="Street">
-                    <xAL:ThoroughfareNumber>7325</xAL:ThoroughfareNumber>
-                    <xAL:ThoroughfareName> Avenue Harley</xAL:ThoroughfareName>
-                  </xAL:Thoroughfare>
-                  <xAL:PostalCode>
-                    <xAL:PostalCodeNumber>H4B 1J9</xAL:PostalCodeNumber>
-                  </xAL:PostalCode>
-                </xAL:Locality>
-              </xAL:Country>
-            </xAL:AddressDetails>
-          </xalAddress>
-        </Address>
     </bldg:Building>
   </core:cityObjectMember>
 
@@ -2284,8 +2070,6 @@
 
 <core:cityObjectMember>
 <frn:CityFurniture  >
-<frn:function>1200</frn:function>
-<class>1030</class> 
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2302,8 +2086,6 @@
 
 <core:cityObjectMember>
 <frn:CityFurniture gml:id="Road_sign_01">
-<frn:function>1070</frn:function>
-<class>1000</class> 
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2319,9 +2101,7 @@
 </core:cityObjectMember>
 
 <core:cityObjectMember>
-<frn:CityFurniture gml:id="Road_sign_02">
-<frn:function>1070</frn:function>
-<class>1000</class> 
+<frn:CityFurniture gml:id="Road_sign_02"> 
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2338,9 +2118,7 @@
 
 
 <core:cityObjectMember>
-<frn:CityFurniture gml:id="Stree lamp_02">
-<frn:function>1150</frn:function>
-<class>1030</class> 
+<frn:CityFurniture gml:id="Street_lamp_02">
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2356,9 +2134,7 @@
 </core:cityObjectMember>
 
 <core:cityObjectMember>
-<frn:CityFurniture gml:id="Stree lamp_03">
-<frn:function>1150</frn:function>
-<class>1030</class> 
+<frn:CityFurniture gml:id="Street_lamp_03">
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2374,9 +2150,7 @@
 </core:cityObjectMember>
 
 <core:cityObjectMember>
-<frn:CityFurniture gml:id="Lamp post_01">
-<frn:function>1170</frn:function>
-<class>1030</class> 
+<frn:CityFurniture gml:id="Lamp_post_01">
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2392,9 +2166,7 @@
 </core:cityObjectMember>
 
 <core:cityObjectMember>
-<frn:CityFurniture gml:id="Lamp post_01">
-<frn:function>1170</frn:function>
-<class>1030</class> 
+<frn:CityFurniture gml:id="Lamp_post_02"> 
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2410,9 +2182,7 @@
 </core:cityObjectMember>
 
 <core:cityObjectMember>
-<frn:CityFurniture gml:id="Lamp post_02">
-<frn:function>1170</frn:function>
-<class>1030</class> 
+<frn:CityFurniture gml:id="Lamp_post_03">
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2428,9 +2198,7 @@
 </core:cityObjectMember>
 
 <core:cityObjectMember>
-<frn:CityFurniture gml:id="Lamp post_03">
-<frn:function>1170</frn:function>
-<class>1030</class> 
+<frn:CityFurniture gml:id="Lamp_post_04">
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2446,9 +2214,7 @@
 </core:cityObjectMember>
 
 <core:cityObjectMember>
-<frn:CityFurniture gml:id="Lamp post_04">
-<frn:function>1170</frn:function>
-<class>1030</class> 
+<frn:CityFurniture gml:id="Lamp_post_05">
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2464,9 +2230,7 @@
 </core:cityObjectMember>
 
 <core:cityObjectMember>
-<frn:CityFurniture gml:id="Lamp post_05">
-<frn:function>1170</frn:function>
-<class>1030</class> 
+<frn:CityFurniture gml:id="Lamp_post_06">
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2483,8 +2247,6 @@
 
 <core:cityObjectMember>
 <frn:CityFurniture gml:id="Bench_01">
-<frn:function>1170</frn:function>
-<class>1530</class> 
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
@@ -2501,8 +2263,6 @@
 
 <core:cityObjectMember>
 <frn:CityFurniture gml:id="Bench_02">
-<frn:function>1170</frn:function>
-<class>1530</class> 
 <frn:lod1ImplicitRepresentation>
 <core:ImplicitGeometry>
 <core:referencePoint>
